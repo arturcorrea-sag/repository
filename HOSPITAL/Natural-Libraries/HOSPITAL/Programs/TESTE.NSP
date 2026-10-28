@@ -1,0 +1,6 @@
+define data local
+1 campo (a10)
+end-define
+move 'hello natural visual code' to campo
+write campo
+end

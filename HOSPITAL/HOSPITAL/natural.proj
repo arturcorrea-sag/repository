@@ -1,0 +1,4 @@
+
+natural.launch.active.name=NatAttachDefault
+natural.languageServer.logging.fileLogging.enabled=true
+natural.debugAdapter.logging.fileLogging.enabled=true

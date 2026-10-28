@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": "../.git"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "NatDebugDefault",
+				"type": "natdebug",
+				"request": "launch",
+				"program": "${file}",
+				"stopOnEntry": true,
+				"ndvHost": "192.168.56.103",
+				"ndvPort": 2700,
+				"sessionParameters": "WEBIO=ON",
+				"parameter": "",
+				"user": "USER",
+				"passwordRequired": false,
+				"password": "${command:extension.handlePassword}",
+				"passwordInput": false,
+				"ssl": false,
+				"sslPassword": "${command:extension.handleSslPassword}",
+				"sslPasswordInput": false,
+				"workspaceRoot": "${workspaceFolder}"
+			},
+			{
+				"name": "NatAttachDefault",
+				"type": "natdebug",
+				"request": "attach",
+				"program": "${file}",
+				"clientID": "VSCODE",
+				"ssl": false,
+				"sslPassword": "${command:extension.handleSslPassword}",
+				"sslPasswordInput": false,
+				"workspaceRoot": "${workspaceFolder}"
+			}
+		]
+	}
+}

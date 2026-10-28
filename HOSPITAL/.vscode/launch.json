@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "NatDebugDefault",
+            "type": "natdebug",
+            "request": "launch",
+            "program": "${file}",
+            "stopOnEntry": true,
+            "ndvHost": "192.168.56.103",
+            "ndvPort": 2700,
+            "sessionParameters": "",
+            "parameter": "",
+            "user": "USER",
+            "passwordRequired": false,
+            "password": "${command:extension.handlePassword}",
+            "passwordAlwaysAsk": false,
+            "ssl": false,
+            "truststorePassword": "${command:extension.handleTruststorePassword}",
+            "truststorePasswordAlwaysAsk": false,
+            "workspaceRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "NatAttachDefault",
+            "type": "natdebug",
+            "request": "attach",
+            "program": "${file}",
+            "stopOnEntry": false,
+            "clientID": "VSCODE",
+            "ssl": false,
+            "truststorePassword": "${command:extension.handleTruststorePassword}",
+            "truststorePasswordAlwaysAsk": false,
+            "workspaceRoot": "${workspaceFolder}"
+        }
+    ]
+}

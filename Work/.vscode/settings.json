@@ -1,0 +1,56 @@
+{
+    /* Natural Preferences */
+    /* To edit them in the Settings UI: File > Preferences > Settings, tab Workspace, */
+    /* Extensions > Natural Preferences - or search for "natural" there. */
+    /* Ctrl+click a link vscode://settings/<name> to open one preference in the Settings editor, */
+    /* e.g. vscode://settings/natural.io.port */
+
+    /* Execution */
+    "natural.io.appserver.host": "localhost",
+    "natural.io.appserver.port": 8080,
+    "natural.io.input.autoskip": false,
+    "natural.io.port": 3500,
+    "natural.io.timeout": 20,
+    "natural.exec.lastmsg": true,
+    "natural.console.output": true,
+    "natural.debug.chunksize": 100,
+    "natural.filetransfer.pathandfilename": "c:\\TEMP\\filetransfer.txt",
+    "natural.filetransfer.translation": "Latin",
+
+    /* Debug Attach Support */
+    "natural.das.host": "localhost",
+    "natural.das.port": 2500,
+    "natural.das.ssl": false,
+
+    /* Source Editor */
+    "natural.editor.struct.indentation": 2,
+    "natural.editor.struct.line.maxlength": 72,
+    "natural.editor.renumber.lineReferences": true,
+    "natural.editor.caseTranslation.enabled": false,
+    "natural.editor.caseTranslation.options": {
+        "comments": false,
+        "singleQuoteStrings": false,
+        "doubleQuoteStrings": true,
+        "upperCaseOnSave": true
+    },
+
+    /* Dependencies */
+    "natural.dependencies.buildAll": true,
+
+    /* DDM Editor */
+    "natural.ddmEditor.autoSave": false,
+    "natural.ddmEditor.insertLocation": "after",
+    "natural.ddmEditor.displaySettings": "bestFit",
+    "natural.ddmEditor.searchPositioning": false,
+
+    /* Logging */
+    "natural.languageServer.logging.fileLogging.enabled": false,
+    "natural.debugAdapter.logging.fileLogging.enabled": false,
+
+    /* Miscellaneous */
+    "natural.ssl.truststore": "",
+    "natural.ssl.truststoreMandatory": false,
+    "natural.private.mode.library.prefix": "USER"
+
+    /* Natural Preferences */
+}
